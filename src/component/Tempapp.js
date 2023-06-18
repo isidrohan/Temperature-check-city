@@ -23,7 +23,7 @@ const Tempapp = () => {
   
   return (
     <div className=" mx-auto h-screen flex item-center justify-center flex-col"
-    style={{ backgroundImage:`url(${image})`,backgroundRepeat: "no-repeat", backgroundSize: "contian"}}
+    style={{ backgroundImage:`url(${image})`,backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "center center"}}
     > 
       <div className='mx-auto w-50 h-[500] border-5 m-7 p-10 rounded-lg shadow-2xl '>
         <div className="h-[7rem] ">
