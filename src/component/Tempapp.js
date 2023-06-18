@@ -22,13 +22,13 @@ const Tempapp = () => {
 
   
   return (
-    <div className=" mx-auto h-screen flex item-center justify-center flex-col"
+    <div className=" mx-auto h-screen w-screen  flex item-center justify-center flex-col"
     style={{ backgroundImage:`url(${image})`,backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "center center"}}
     > 
-      <div className='mx-auto w-50 h-[500] border-5 m-7 p-10 rounded-lg shadow-2xl '>
-        <div className="h-[7rem] ">
+      <div className='mx-auto w-[300px] h-[500] sm:w-[400px] border-5 m-7 p-10 rounded-lg shadow-2xl '>
+        <div className="h-[8rem] ">
          
-          <input className='font-bold font-display rounded-3xl text-2xl p-3 focus:outline-none ' placeholder='Search' type="search" value={search} onChange={(event)=>{
+          <input className='font-bold font-display rounded-3xl w-[217px] sm:w-[317px] text-2xl p-3 focus:outline-none ' placeholder='Search' type="search" value={search} onChange={(event)=>{
                 setSearch(event.target.value)
           
           }}>
